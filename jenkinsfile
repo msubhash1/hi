@@ -3,6 +3,7 @@ node{
      git 'https://github.com/msubhash1/hi'
      }
   stage('Compile-stage'){
-     sh 'mvn clean package'
+     def mvnHome = tool name: 'maven', type: 'maven'
+     sh "${mvnHome}/bin/mvn package"
      }
    }
