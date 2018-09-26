@@ -4,6 +4,8 @@ node{
      }
   stage('Compile-stage'){
      def mvnHome = tool name: 'maven', type: 'maven'
+     //in linux-->sh "${maven}/bin/mvn package"
+     //windows
      bat "${mvnHome}\\bin\\mvn  package"
      }
    }
