@@ -1,0 +1,8 @@
+node{
+  stage('SCM Checkout'){
+     git 'https://github.com/msubhash1/hi'
+     }
+  stage('Compile-stage'){
+     sh 'mvn clean package'
+     }
+   }
