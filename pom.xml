@@ -45,7 +45,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>project100</finalName>
+        <finalName>subhash</finalName>
     </build>
     <properties>
         <failOnMissingWebXml>false</failOnMissingWebXml>
